@@ -33,7 +33,7 @@ string appendAndDelete(string s, string t, int k)
        if (s.size()-commonLength+t.size()-commonLength<=k&& (s.size()-commonLength+t.size()-commonLength)%2==k%2)
         return "Yes";
  
-    // Case B-
+   
     return "No";
    
 }
